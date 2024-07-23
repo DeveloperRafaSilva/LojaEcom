@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="stiloCarrinho.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="menuLateral.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menuMobile.css">
+  <title>Loja Ecom</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="header-infos-gerais container-global">
+        <div class="infos-item">
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/Emailicone.svg" alt="Icone de email">
+            <b>Rafael@gmail.com</b>
+          </div>
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/telefoneIcone.svg" alt="Icone de email">
+            <b>(54)99999-8775</b>
+          </div>
+        </div>
+      <div class="infos-item">
+        <div class="info-item">
+          <p>English</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <p>USD</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <a href="/PageLogin/pageLogin.html">
+            <p>Login</p>
+            <img src="/src/imagens/IconesHeader/Usericone.svg" alt="Icone Arrow">
+          </a>
+        </div>
+        <div class="info-item">
+          <p>WishList</p>
+          <img src="/src/imagens/IconesHeader/FavoritoIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <div class="menu-lateral-carrinho">
+            <img data-abrir-carrinho src="/src/imagens/IconesHeader/cartIcone.svg" alt="Icone Arrow">
+            <div data-container-carrinho class="container-menu-lateral-carinho">
+              <div data-fechar-carrinho class="fechar">
+                <h2>x</h2>
+              </div>
+              <div data-conteudo-append-carrinho>
+
+              </div>
+              <div data-valor-produtos-carrinho>
+                <h3>Total</h3>
+                <p data-total-produtos></p>
+              </div>
+              <div class="links-carrinho">
+                <a href="./pages/shop/paginaCarrinho/paginaCarrinho.html">Cart page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-principal">
+    <nav>
+      <ul class="container-global ul-list-header-links">
+        <div class="logo">
+          <li>
+            <div data-menu-mobile class="menu-mobile">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <img src="/src/imagens/Logo/Hekto.svg" alt="Logo do Site">
+          </li>
+        </div>
+        <div data-modal-links class="links-nav">
+          <li class="home-links">
+            <a data-links-ativo class="link-ativo" href="#">Home</a>
+            <div class="sub-links">
+              <ul>
+                <li><a href="/pages/shop/shop.html">Shop</a></li>
+                <li><a href="/pages/shop/UsuarioProdutos/UsuariosPageProdutos.html">Shop users</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-links-ativo href="/pages/shop/shopSideBar/shopLateral.html">Products</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/pageBlog/pageBlog.html">Blog</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/contactPage/contactPage.html">Contact</a>
+          </li>
+        </div>
+        <div class="input-search">
+          <input type="search">
+        </div>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <main class="carrosel-main">
+    <div  class="container">
+      <div id="img" class="carrosel">
+        <img src="/src/imagens/ImagemMain/promotion bg.png" alt="Imagem Promocional Main">
+        <img src="/src/imagens/ImagemMain/promotion bg.png" alt="Imagem Promocional Main">
+        <img src="/src/imagens/ImagemMain/promotion bg.png" alt="Imagem Promocional Main">
+      </div>
+      <div class="index-spans">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </main>
+  <section class="container-global produtos-section">
+    <div class="titulo">
+      <h1>Featured Products</h1>
+    </div>
+    <div data-produto-slide-intervalo class="produtos-container">
+      <div   class="produtos-item">
+        <div data-produto-item class="produto-item">
+
+        </div>
+      </div>
+      <div class="navegacao-slide">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </section>
+  <section class="latest-produtos container-global">
+    <div class="titulo">
+      <h1>Latest Products</h1>
+    </div>
+    <div class="links-nav link-modal">
+      <li>
+        <a data-links-ativo class="link-ativo" href="#">New Arrial</a>
+      </li>
+      <li>
+        <a data-links-ativo href="#">Best Seller</a>
+      </li>
+      <li>
+        <a data-links-ativo href="#">Featured</a>
+      </li>
+      <li>
+        <a data-links-ativo href="#">Special Offer</a>
+      </li>
+    </div>
+    <div class="produtos-latest">
+      <div data-produtos-latest class="produtos-item"></div>
+    </div>
+  </section>
+  <article class="formas-de-entrega-e-mais">
+    <div class="titulo">
+      <h1>What Shopex offer</h1>
+    </div>
+    <div class="container-duvidas">
+      <div class="duvidas-item">
+        <div class="imagem-duvidas">
+          <img src="/src/imagens/DuvidasImgs/freteImg.png" alt="Icone frete">
+        </div>
+        <div class="conteudo-duvidas">
+          <h2>24//7 Support</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil expedita eos error voluptate reiciendis provident, officia quae doloribus ipsa!</p>
+        </div>
+      </div>
+      <div class="duvidas-item">
+        <div class="imagem-duvidas">
+          <img src="/src/imagens/DuvidasImgs/support.png" alt="Icone frete">
+        </div>
+        <div class="conteudo-duvidas">
+          <h2>24//7 Support</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil expedita eos error voluptate reiciendis provident, officia quae doloribus ipsa!</p>
+        </div>
+      </div>
+      <div class="duvidas-item">
+        <div class="imagem-duvidas">
+          <img src="/src/imagens/DuvidasImgs/medalha.png" alt="Icone frete">
+        </div>
+        <div class="conteudo-duvidas">
+          <h2>24//7 Support</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil expedita eos error voluptate reiciendis provident, officia quae doloribus ipsa!</p>
+        </div>
+      </div>
+      <div class="duvidas-item">
+        <div class="imagem-duvidas">
+          <img src="/src/imagens/DuvidasImgs/Phone.png" alt="Icone frete">
+        </div>
+        <div class="conteudo-duvidas">
+          <h2>24//7 Support</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil expedita eos error voluptate reiciendis provident, officia quae doloribus ipsa!</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <section class="unique-container">
+    <div class="unique-conteudo">
+      <img src="/src/imagens/uniqueImgs/homeUniq.png" alt="Sofa unique">
+    </div>
+    <div class="conteudo-unique">
+      <div class="titulo">
+        <h1>Unique features of leatest & Trending Products</h1>
+      </div>
+      <ul class="lista-infos">
+        <li>All frames Constructed with hardwood solids and laminets</li>
+        <li>Reinforced with double wood dowels</li>
+        <li>Arms,backs and seats are structually reinforced</li>
+      </ul>
+      <div class="btn-principal">
+        <a href="#">Add to Cart</a>
+        <div class="conteudo-lado-btn">
+          <span>B & B Italian Sofa</span>
+          <p class="preco-produto">$32.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <article class="trending container-global">
+    <div class="titulo">
+      <h1>Tranding Product</h1>
+    </div>
+    <div class="tranding-container">
+      <div data-tranding-produtos class="tranding-append"></div>
+    </div>
+  </article>
+  <section class="produto-desconto container-global">
+    <div class="container-produto-desconto">
+      <div class="produto-item-desconto">
+        <h2 class="titulo-desconto">23% off in all products</h2>
+        <a href="#">ShopNow</a>
+        <img src="/src/imagens/proutosDesconto/relogio.png" alt="">
+      </div>
+      <div class="produto-item-desconto">
+        <h2 class="titulo-desconto">23% off in all products</h2>
+        <a href="#">ShopNow</a>
+        <img src="/src/imagens/proutosDesconto/armario.png" alt="">
+      </div>
+      <div class="itens-cadeira">
+        <div class="cadeira-item">
+          <img src="/src/imagens/proutosDesconto/cadeira1.png" alt="Cadeira de madeira">
+          <div>
+            <p>Executive seat chair</p>
+            <span>$38.00</span>
+          </div>
+        </div>
+        <div class="cadeira-item">
+          <img src="/src/imagens/proutosDesconto/cadeira2.png" alt="Cadeira de madeira">
+          <div>
+            <p>Executive seat chair</p>
+            <span>$38.00</span>
+          </div>
+        </div>
+        <div class="cadeira-item">
+          <img src="/src/imagens/proutosDesconto/cadeira3.png" alt="Cadeira de madeira">
+          <div>
+            <p>Executive seat chair</p>
+            <span>$38.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <article class="discount-item">
+    <div class="titulo">
+      <h1>Discount item</h1>
+      <div class="lista-links-discount">
+        <ul class="ul-disconto">
+          <li><a data-links-ativo class="link-ativo" href="#">Wood chair</a></li>
+          <li><a data-links-ativo href="#">Plastic Chair</a></li>
+          <li><a data-links-ativo href="#">Sofa Collection</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="conteudo-discount">
+      <div class="texto-discount">
+        <h1 class="titulo">20% discount off all Products</h1>
+        <a class="link-disconto" href="#">Eams sofa Compact</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit perspiciatis, earum vitae esse eligendi magnam ratione odit hic libero.</p>
+        <div class="lista-beneficios">
+          <ul>
+            <li>Materials expose likes metais</li>
+            <li>Simple neutral colours</li>
+            <li>Clear lines and geomatric figure</li>
+            <li>Materials expose likes metais</li>
+          </ul>
+        </div>
+        <div class="btn-principal">
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+      <div class="imagens-disconto">
+        <img src="/src/imagens/PufDiscount/Puf.png" alt="Puf">
+      </div>
+    </div>
+  </article>
+  <article class="top-categoria container-global">
+    <div class="titulo">
+      <h1>Top categories</h1>
+    </div>
+    <div class="itens-top-categoria">
+      <div class="item-top-categoris">
+        <img src="/src/imagens/cadeiraTopCategoria/cadeira.png" alt="Cadeira top">
+        <div class="infos-produto">
+          <p> Mini LWC chair</p>
+          <span>$56.00</span>
+        </div>
+      </div>
+      <div class="item-top-categoris">
+        <img src="/src/imagens/cadeiraTopCategoria/cadeira2.png" alt="Cadeira top">
+        <div class="infos-produto">
+          <p> Mini LWC chair</p>
+          <span>$56.00</span>
+        </div>
+      </div>
+      <div class="item-top-categoris">
+        <img src="/src/imagens/cadeiraTopCategoria/cadeira3.png" alt="Cadeira top">
+        <div class="infos-produto">
+          <p> Mini LWC chair</p>
+          <span>$56.00</span>
+        </div>
+      </div>
+      <div class="item-top-categoris">
+        <img src="/src/imagens/cadeiraTopCategoria/cadeira.png" alt="Cadeira top">
+        <div class="infos-produto">
+          <p> Mini LWC chair</p>
+          <span>$56.00</span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <section class="newslater">
+    <h1 class="titulo">Get latest update bt subscribe our newslater</h1>
+    <div class="btn-principal">
+      <a href="#">Shop now</a>
+    </div>
+  </section>
+  <article class="marcas">
+    <img src="/src/imagens/marcas/marcas.png" alt="Logos de empresas">
+  </article>
+  <section class="blog container-global">
+    <h1 class="titulo">Latest Blog</h1>
+    <div class="blog-container">
+      <div class="blog-item">
+        <div class="imagem-blog">
+          <img src="/src/imagens/blog/blog1.png" alt="Imagem sala de estar">
+        </div>
+        <div class="conteudo-blog">
+          <div class="infos-blog">
+            <ul>
+              <li><p class="nome-blog">Sobre ali</p></li>
+              <li><p class="data-blog">21 august / 2020</p></li>
+            </ul>
+          </div>
+          <div class="texto-blog">
+            <h3>Top essential Trends in 2023</h3>
+            <p>More off this less, hello samlande lied much over tightly circa hore taped mightly</p>
+            <a href="#">Read  More</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-item">
+        <div class="imagem-blog">
+          <img src="/src/imagens/blog/blog2.png" alt="Imagem sala de estar">
+        </div>
+        <div class="conteudo-blog">
+          <div class="infos-blog">
+            <ul>
+              <li><p class="nome-blog">Sobre ali</p></li>
+              <li><p class="data-blog">21 august / 2020</p></li>
+            </ul>
+          </div>
+          <div class="texto-blog">
+            <h3>Top essential Trends in 2023</h3>
+            <p>More off this less, hello samlande lied much over tightly circa hore taped mightly</p>
+            <a href="#">Read  More</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-item">
+        <div class="imagem-blog">
+          <img src="/src/imagens/blog/blog3.png" alt="Imagem sala de estar">
+        </div>
+        <div class="conteudo-blog">
+          <div class="infos-blog">
+            <ul>
+              <li><p class="nome-blog">Sobre ali</p></li>
+              <li><p class="data-blog">21 august / 2020</p></li>
+            </ul>
+          </div>
+          <div class="texto-blog">
+            <h3>Top essential Trends in 2023</h3>
+            <p>More off this less, hello samlande lied much over tightly circa hore taped mightly</p>
+            <a href="#">Read  More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="conteudo-footer">
+      <img src="/src/imagens/Logo/Hekto.svg" alt="Logo Hekto">
+      <div class="input-footer">
+        <input type="text" placeholder="Enter Addres Email" name="email" id="email">
+        <div>
+          <a class="btn-footer" href="#">Sign Up</a>
+        </div>
+      </div>
+      <span>Contact info</span>
+    </div>
+    <div class="conteudo-footer">
+      <div class="titulo">
+        <h1>Categories</h1>
+      </div>
+      <ul class="lista-footer">
+        <li><a href="#">Laptops & Computer</a></li>
+        <li><a href="#">Camera & Photography</a></li>
+        <li><a href="#">Video Games & Console</a></li>
+        <li><a href="#">Smartphones & tablet</a></li>
+      </ul>
+    </div>
+    <div class="conteudo-footer">
+      <div class="titulo">
+        <h1>Pages</h1>
+      </div>
+      <ul class="lista-footer">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Browse the shop</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Pre-build Pages</a></li>
+        <li><a href="#">Visual Composer Elements</a></li>
+        <li><a href="#">Weecommerce pages</a></li>
+      </ul>
+    </div>
+    <div class="conteudo-footer">
+      <div class="titulo">
+        <h1>Custom care</h1>
+      </div>
+      <ul class="lista-footer">
+        <li><a href="#">My account</a></li>
+        <li><a href="#">Discount</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Order Tracking</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script type="module" src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="PageLogin.css">
+  <link rel="stylesheet" href="/pages/shop/shop.css">
+  <link rel="stylesheet" href="../menuLateral.css">
+<link rel="stylesheet" href="../menuMobile.css">
+<link rel="stylesheet" href="../stiloCarrinho.css">
+  <title>Loja Ecom</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="header-infos-gerais container-global">
+        <div class="infos-item">
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/Emailicone.svg" alt="Icone de email">
+            <b>Rafael@gmail.com</b>
+          </div>
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/telefoneIcone.svg" alt="Icone de email">
+            <b>(54)99999-8775</b>
+          </div>
+        </div>
+      <div class="infos-item">
+        <div class="info-item">
+          <p>English</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <p>USD</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <a href="pageLogin.html">
+            <p>Login</p>
+            <img src="/src/imagens/IconesHeader/Usericone.svg" alt="Icone Arrow">
+          </a>
+        </div>
+        <div class="info-item">
+          <p>WishList</p>
+          <img src="/src/imagens/IconesHeader/FavoritoIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <div class="menu-lateral-carrinho">
+            <img data-abrir-carrinho src="/src/imagens/IconesHeader/cartIcone.svg" alt="Icone Arrow">
+            <div data-container-carrinho class="container-menu-lateral-carinho">
+              <div data-fechar-carrinho class="fechar">
+                <h2>x</h2>
+              </div>
+              <div data-conteudo-append-carrinho>
+
+              </div>
+              <div data-valor-produtos-carrinho>
+                <h3>Total</h3>
+                <p data-total-produtos></p>
+              </div>
+              <div class="links-carrinho">
+                <a href="./pages/shop/paginaCarrinho/paginaCarrinho.html">Cart page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-principal">
+    <nav>
+      <ul class="container-global ul-list-header-links">
+        <div class="logo">
+          <li>
+            <div data-menu-mobile class="menu-mobile">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <img src="/src/imagens/Logo/Hekto.svg" alt="Logo do Site">
+          </li>
+        </div>
+        <div data-modal-links class="links-nav">
+          <li class="home-links">
+            <a data-links-ativo class="link-ativo" href="/index.html">Home</a>
+            <div class="sub-links">
+              <ul>
+                <li><a href="/pages/shop/shop.html">Shop</a></li>
+                <li><a href="/pages/shop/UsuarioProdutos/UsuariosPageProdutos.html">Shop users</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-links-ativo href="/pages/shop/shopSideBar/shopLateral.html">Pages</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/pageBlog/pageBlog.html">Blog</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/contactPage/contactPage.html">Contact</a>
+          </li>
+        </div>
+        <div class="input-search">
+          <input type="search">
+        </div>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="shop-container ">
+  <div class="main">
+    <div class="conteudo-shop-grid container-global">
+      <h1>My Account</h1>
+      <p>Home.Pages <span class="link-ativo">My Account</span></p>
+    </div>
+  </div>
+</main>
+<section class=" container-global">
+  <div class="campo-login">
+    <div class="login-titulo">
+      <h1>Login</h1>
+      <p>Please Login using account detail label</p>
+    </div>
+    <div class="inputs-login">
+      <form action="Enter" method="post">
+        <input type="text" id="username" placeholder="enter your username">
+        <input type="text" id="password" placeholder="enter your password">
+        <span>Forgot poassword?</span>
+      </form>
+    </div>
+    <div class="btn-principal2">
+      <a data-enviar-login href="#">Sign In</a>
+    </div>
+  </div>
+</section>
+<article>
+  <img src="/src/imagens/marcas/marcas.png" alt="Marcas apoiadoras">
+</article>
+<footer>
+  <div class="conteudo-footer">
+    <img src="/src/imagens/Logo/Hekto.svg" alt="Logo Hekto">
+    <div class="input-footer">
+      <input type="text" placeholder="Enter Addres Email" name="email" id="email">
+      <div>
+        <a class="btn-footer" href="#">Sign Up</a>
+      </div>
+    </div>
+    <span>Contact info</span>
+  </div>
+  <div class="conteudo-footer">
+    <div class="titulo">
+      <h1>Categories</h1>
+    </div>
+    <ul class="lista-footer">
+      <li><a href="#">Laptops & Computer</a></li>
+      <li><a href="#">Camera & Photography</a></li>
+      <li><a href="#">Video Games & Console</a></li>
+      <li><a href="#">Smartphones & tablet</a></li>
+    </ul>
+  </div>
+  <div class="conteudo-footer">
+    <div class="titulo">
+      <h1>Pages</h1>
+    </div>
+    <ul class="lista-footer">
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Browse the shop</a></li>
+      <li><a href="#">Category</a></li>
+      <li><a href="#">Pre-build Pages</a></li>
+      <li><a href="#">Visual Composer Elements</a></li>
+      <li><a href="#">Weecommerce pages</a></li>
+    </ul>
+  </div>
+  <div class="conteudo-footer">
+    <div class="titulo">
+      <h1>Custom care</h1>
+    </div>
+    <ul class="lista-footer">
+      <li><a href="#">My account</a></li>
+      <li><a href="#">Discount</a></li>
+      <li><a href="#">Returns</a></li>
+      <li><a href="#">Order Tracking</a></li>
+    </ul>
+  </div>
+</footer>
+<script type="module" src="/PageLogin/PageLoginModule.js"></script>
+</body>
+</html>

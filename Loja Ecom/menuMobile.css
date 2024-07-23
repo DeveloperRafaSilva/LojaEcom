@@ -1,0 +1,95 @@
+.menu-mobile > div{
+  content: "";
+  width: 30px;
+  height: 5px;
+  display: block;
+  background-color: rebeccapurple;
+  margin: .2rem 0;
+}
+
+.menu-mobile{
+  display: none;
+  z-index: 100;
+}
+
+nav{
+  position: relative !important;
+}
+
+@media(max-width:475px){
+  .menu-mobile{
+    display: inline-block;
+  }
+
+  .ul-list-header-links .links-nav{
+    display: none;
+    position: absolute;
+    margin: 1rem;
+    z-index: 100;
+    top: 35px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: -1px 0px 4px 1px  rgba(0, 0, 0, .2);
+  }
+
+  .links-nav.onMenuMobile{
+    display: block;
+  }
+
+  .links-nav li{
+    margin: .4rem 0;
+    padding: .3rem 1rem;
+  }
+}
+
+.logo li{
+  gap: 1rem;
+  display: flex;
+}
+
+.menu-mobile > div{
+  transition: .3s;
+  position: relative;
+}
+
+.menu-mobile.close > div:nth-child(2){
+  display: none;
+}
+.menu-mobile.close > div:nth-child(1){
+  transform: rotate(-140deg);
+  top: 3px;
+  transition: .3;
+}
+.menu-mobile.close > div:nth-child(3){
+  transform: rotate(140deg);
+  transition: .3;
+  top: -5px;
+}
+
+/* SUBLINKS */
+
+.sub-links{
+  display: none;
+  box-shadow: 1px 0px 4px 1px  rgba(0, 0, 0, .2);
+  z-index: 100;
+}
+
+.sub-links ul{
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  padding: .4rem 1rem;
+
+}
+
+.sub-links ul li > a:hover{
+  color: #FB2E86;
+}
+
+.sub-links ul > li{
+  margin: .5rem 0;
+}
+
+.home-links:hover .sub-links{
+  display: block;
+}

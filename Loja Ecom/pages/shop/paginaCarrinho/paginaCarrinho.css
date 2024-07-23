@@ -1,0 +1,146 @@
+.produtos-carrinho{
+  margin: 3rem auto;
+  max-width:960px;
+}
+
+.grid-item li > h1{
+  color: #1D3178;
+}
+
+.grid-item,
+.container-carrinho-cart{
+  justify-content:start;
+  width: fit-content;
+  align-items: center;
+  grid-template-columns: 250px 70px 70px 70px;
+  display: grid;
+  gap: 3rem;
+}
+
+.imagem-cart{
+  display: flex;
+  align-items: start;
+  gap: 1rem ;
+}
+
+.contador{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contador span{
+  padding: initial;
+}
+
+.container-carrinho-cart:nth-child(1){
+  border-bottom: 2px solid #ccc;
+  padding: 1rem 0;
+}
+
+.btns-cart a{
+  background-color: #FB2E86;
+  padding: .5rem 1rem;
+  display: inline-block;
+  color: #fff;
+}
+
+.btns-cart{
+  display: flex;
+  justify-content: start;
+  margin: 1rem 0;
+}
+[data-mensagem-cart]{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.subTotal-card h1{
+  color: #1D3178;
+}
+
+.produtos-carrinho{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3rem;
+}
+
+@media(max-width:875px){
+  
+.grid-item,
+.container-carrinho-cart{
+  grid-template-columns: 100px auto auto auto;
+
+}
+}
+
+@media(max-width:720px){
+  .produtos-carrinho{
+    grid-template-columns: auto;
+  }
+}
+
+@media(max-width:475px){
+  .grid-item{
+    display: none;
+  }
+  .container-carrinho-cart{
+    grid-template-columns: 100px 100px;
+   }
+
+   .imagem-cart-cart img{
+    display: none;
+   }
+}
+
+.card{
+  background-color: #F4F4FC;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+}
+
+.total-produtos-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 2px solid #000;
+}
+
+.subTotal-card h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.btn-total{
+  background-color: #19D16F;
+  padding: .5rem .8rem;
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
+}
+.btn-total a{
+  display: block;
+  color: #fff;
+}
+.btn-calcular-entrega{
+  background-color: #FB2E86;
+  padding: .5rem .8rem;
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
+}
+.btn-calcular-entrega a{
+  display: block;
+  color: #fff;
+}
+
+.card-inputs input{
+  max-width: 500px;
+  width: 100%;
+  padding-bottom: .5rem;
+  margin: 1rem 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+}

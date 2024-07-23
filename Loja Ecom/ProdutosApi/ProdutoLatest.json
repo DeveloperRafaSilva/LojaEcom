@@ -1,0 +1,80 @@
+[
+  {
+    "id":"0",
+    "nome":"Confort Handy Craft",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":72.00,
+    "src":[
+      "../src/imagens/ProdutoLatest/produto1.png"
+    ],
+    "alt":[
+    "Produto item"
+    ]
+  },
+  {
+    "id":"1",
+    "nome":"Confort Handy Craft",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":72.00,
+    "src":[
+      "../src/imagens/ProdutoLatest/produto2.png"
+    ],
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"2",
+    "nome":"Confort Handy Craft",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":72.00,
+      "src":[
+      "../src/imagens/ProdutoLatest/produto3 (1).png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"3",
+    "nome":"Confort Handy Craft",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":72.00,
+    "src":[
+      "../src/imagens/ProdutoLatest/produto4.png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"4",
+    "nome":"Confort Handy Craft",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":72.00,
+    "src":[
+      "../src/imagens/ProdutoLatest/produto5.png"
+    ],
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"5",
+    "nome":"Confort Handy Craft",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":72.00,
+    "src":[
+      "../src/imagens/ProdutoLatest/produto6.png"
+    ],
+    "alt":[
+    "Produto item"
+    ]
+  }
+]

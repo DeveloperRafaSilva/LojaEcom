@@ -1,0 +1,35 @@
+.order-complete{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #101750;
+}
+
+.order-complete img{
+  margin: 1.5rem auto;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  filter: blur(.2px);
+  padding: .5rem ;
+  border-radius: 50%;
+}
+
+.order-complete p{
+  width: 50ch;
+  color: #8D92A7;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.order-complete .btn-principal a{
+  margin: 0 auto;
+}
+
+@media(max-width:500px){
+  .order-complete p{
+    width: auto;
+  }
+}
+
+article img{
+  margin: 3rem auto;
+}

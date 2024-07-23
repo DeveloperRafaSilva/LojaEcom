@@ -1,0 +1,233 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --max-width:70rem;
+  --padding:1.2rem 1.7rem;
+  --margin:0rem auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.container-global{
+  max-width: var(--max-width);
+  padding: var(--padding);
+  margin: var(--margin);
+  font-family: "Josefin Sans";
+}
+
+.header-infos-gerais{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.infos-item{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.info-item{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+header{
+  font-family: "Josefin Sans";
+}
+
+.ul-list-header-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.links-nav{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.links-nav  li > a{
+  color: #234;
+}
+
+.link-ativo{
+  color: #FB2E86 !important ;
+}
+
+/* SHOP MAIN */
+
+.main{
+  padding: 2rem 3rem;
+  background-color: #F6F5FF;
+}
+
+.conteudo-shop-grid p{
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+/* SIDE BARD */
+
+.conteudo-produtos{
+  margin-top: 3rem;
+}
+
+.titulo-sidebar{
+  color: #151875;
+  text-decoration: underline;
+  margin: 1rem 0 ;
+  font-size: 1.5rem;
+}
+
+.lista-ul-discontos li{
+  margin: .5rem 0;
+}
+
+.lista-ul-discontos li{
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  color: #7E81A2;
+  gap: .5rem;
+}
+
+.lista-ul-discontos li::before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  content: url(../../../src/imagens/produtoSideBar/iconesSideBar/icoeCerto.svg);
+  background-color: #FF3EB255;
+  padding: .2rem .3rem;
+  display: inline-block;
+}
+
+.lista-ul-discontos li:hover::before{
+  background-color: #FF3EB2;
+}
+.lista-ul-avaliacao li{
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  color: #7E81A2;
+  margin: .5rem 0;
+  gap: .5rem;
+}
+
+.lista-ul-avaliacao li::before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  content: url(../../../src/imagens/produtoSideBar/iconesSideBar/icoeCerto.svg);
+  background-color: #FFCC2E55;
+  padding: .2rem .3rem;
+  display: inline-block;
+}
+
+.lista-ul-avaliacao li:hover::before{
+  background-color: #FFCC2E;
+}
+
+.container-side-bar-produtos{
+  max-width: 900px !important;
+  margin: 0 auto;
+}
+
+.conteudo-produtos{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+}
+
+@media(max-width:850px){
+  .conteudo-produtos{
+    grid-template-columns: auto;
+  }
+
+  .side-bar{
+    gap: 1rem;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.produtos-users{
+  padding: 1rem 1.5rem;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .5);
+  margin: 3rem 0;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.imagem-produto-usuario img{
+  min-width: 200px;
+}
+
+.descricao p{
+  width:40ch;
+  color: #9295AA;
+  margin: .5rem 0;
+}
+
+.flex-item{
+  display: flex;
+  align-items: center;
+  margin: .5rem 0;
+  gap: .7rem;
+}
+
+.nome-produto-user{
+  font-weight: bold;
+}
+
+.nome-produto-user,
+.moeda-color{
+  color: #111C85;
+}
+
+@media(max-width:700px){
+  .descricao p{
+    width: auto;
+  }
+}
+@media(max-width:500px){
+  .produtos-users{
+    flex-wrap: wrap;
+  }
+}
+
+.icones-usuario img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem .3rem;
+  border-radius: 50%;
+  background-color: #F6F5FF;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .2);
+}
+
+.icones-usuario img:not(:first-child){
+  margin: 0 .4rem;
+}
+
+li.link-ativo::before{
+  background-color: #9295AA !important;
+}

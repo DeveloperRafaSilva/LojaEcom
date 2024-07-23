@@ -1,0 +1,175 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --max-width:70rem;
+  --padding:1.2rem 1.7rem;
+  --margin:0rem auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.container-global{
+  max-width: var(--max-width);
+  padding: var(--padding);
+  margin: var(--margin);
+  font-family: "Josefin Sans";
+}
+
+.header-infos-gerais{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.infos-item{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.info-item{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+header{
+  font-family: "Josefin Sans";
+}
+
+.ul-list-header-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.links-nav{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.links-nav  li > a{
+  color: #234;
+}
+
+.link-ativo{
+  color: #FB2E86 !important ;
+}
+
+/* SHOP MAIN */
+
+.main{
+  padding: 2rem 3rem;
+  background-color: #F6F5FF;
+}
+
+.conteudo-shop-grid p{
+  margin: 1rem .5rem 0 0;
+  display: inline-block;
+}
+
+[append-blog]{
+  max-width: 800px;
+  width: 100%;
+  margin: 3rem auto 0 auto;
+}
+
+
+.grid-blog{
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+@media(max-width:500px){
+  .grid-blog{
+    grid-template-columns: auto;
+  }
+}
+
+.titulo-side-bar h2{
+  color: #151875;
+}
+
+.side-bar-blog{
+  margin: 3rem 0;
+}
+
+.card-side-bar{
+  color: #151875;
+  margin-top: 2rem;
+}
+
+.card-item{
+  margin: 1.5rem 0;
+  display: flex;
+  gap: .5rem;
+  align-items: start;
+}
+
+.card-item h4{
+  margin: 0 0 .4rem 0;
+}
+
+.container-blog{
+  margin-bottom: 3rem ;
+}
+
+.container-blog p{
+  margin: 1rem 0;
+}
+
+.data-postagem::before{
+  display: inline-block;
+  margin: 0 .5rem;
+  content: url(../src/imagens/blog/icones/calendario.svg);
+}
+
+.data-postagem {
+  width: fit-content;
+  color: #151875;
+  background-color: #FFA45455;
+  padding: .2rem .5rem;
+}
+
+.titulo-blog-paragrafo h1{
+  color: #151875;
+}
+
+.titulo-blog-paragrafo p{
+  color: #8A8FB9;
+}
+
+[paginacao-nav]{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+[paginacao-nav] div > span{
+  width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem .5rem;
+  border: 2px solid #8A8FB933;
+}
+
+.pagina-ativa{
+  background-color: #FB2E86;
+  color: #234;
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id":"0",
+    "nome":"canflerty Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":26.00,
+    "src":[
+      "../src/imagens/produtoTrending/produto1.png"
+    ],
+    "alt":[
+    "Produto item"
+    ]
+  },
+  {
+    "id":"1",
+    "nome":"canflerty Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":26.00,
+    "src":[
+      "../src/imagens/produtoTrending/produto2.png"
+    ],
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"2",
+    "nome":"canflerty Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":26.00,
+      "src":[
+      "../src/imagens/produtoTrending/produto3 (1).png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"3",
+    "nome":"canflerty Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "precoAnterior":26.00,
+    "src":[
+      "../src/imagens/produtoTrending/produto4.png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  }
+]

@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --max-width:70rem;
+  --padding:1.2rem 1.7rem;
+  --margin:0rem auto;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.container-global{
+  max-width: var(--max-width);
+  padding: var(--padding);
+  margin: var(--margin);
+  font-family: "Josefin Sans";
+}
+
+.header-infos-gerais{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.infos-item{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.info-item{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+header{
+  font-family: "Josefin Sans";
+}
+
+.ul-list-header-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.links-nav{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.links-nav  li > a{
+  color: #234;
+}
+
+.link-ativo{
+  color: #FB2E86 !important ;
+}
+
+/* SHOP MAIN */
+
+.main{
+  padding: 2rem 3rem;
+  background-color: #F6F5FF;
+}
+
+.conteudo-shop-grid p{
+  margin: 1rem .5rem 0 0;
+  display: inline-block;
+}
+
+.produtos-usuarios{
+  margin-top: 3rem !important;
+}
+
+/* PRODUTOS USER */
+
+.produtos-users{
+  padding: 1rem 1.5rem;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .5);
+  margin: 3rem 0;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.imagem-produto-usuario img{
+  min-width: 200px;
+}
+
+.descricao p{
+  width:40ch;
+  color: #9295AA;
+  margin: .5rem 0;
+}
+
+.flex-item{
+  display: flex;
+  align-items: center;
+  margin: .5rem 0;
+  gap: .7rem;
+}
+
+.nome-produto-user{
+  font-weight: bold;
+}
+
+.nome-produto-user,
+.moeda-color{
+  color: #111C85;
+}
+
+@media(max-width:700px){
+  .descricao p{
+    width: auto;
+  }
+}
+@media(max-width:500px){
+  .produtos-users{
+    flex-wrap: wrap;
+  }
+}
+
+.icones-usuario img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem .3rem;
+  border-radius: 50%;
+  background-color: #F6F5FF;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .2);
+}
+
+.icones-usuario img:not(:first-child){
+  margin: 0 .4rem;
+}

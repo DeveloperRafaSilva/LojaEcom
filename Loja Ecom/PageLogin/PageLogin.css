@@ -1,0 +1,40 @@
+
+.campo-login{
+  text-align: center;
+  max-width: 500px !important;
+  margin: 5rem auto !important;
+  padding: 2rem 2rem;
+  box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.campo-login p,span{
+  color: #8D92A7;
+  margin: 1rem 1rem;
+}
+
+.inputs-login input{
+  display: block;
+  margin: 1rem auto;
+  max-width: 210px;
+  padding: .6rem 1.2rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid #8D92A7;
+}
+
+.btn-principal2 {
+  background-color: #FB2E86;
+  max-width: 200px;
+  padding: .8rem 1.2rem;
+  display: block;
+  margin: 1rem auto;
+}
+
+.btn-principal2 a{
+  color: #fff;
+}
+
+article{
+  max-width: 800px;
+  margin: 0 auto;
+}

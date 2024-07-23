@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./checkout.css">
+  <link rel="stylesheet" href="/pages/shop/shop.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../menuLateral.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../menuMobile.css">
+<link rel="stylesheet" href="../stiloCarrinho.css">
+  <title>Loja Ecom</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="header-infos-gerais container-global">
+        <div class="infos-item">
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/Emailicone.svg" alt="Icone de email">
+            <b>Rafael@gmail.com</b>
+          </div>
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/telefoneIcone.svg" alt="Icone de email">
+            <b>(54)99999-8775</b>
+          </div>
+        </div>
+      <div class="infos-item">
+        <div class="info-item">
+          <p>English</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <p>USD</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <a href="/PageLogin/pageLogin.html">
+            <p>Login</p>
+            <img src="/src/imagens/IconesHeader/Usericone.svg" alt="Icone Arrow">
+          </a>
+        </div>
+        <div class="info-item">
+          <p>WishList</p>
+          <img src="/src/imagens/IconesHeader/FavoritoIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <div class="menu-lateral-carrinho">
+            <img data-abrir-carrinho src="/src/imagens/IconesHeader/cartIcone.svg" alt="Icone Arrow">
+            <div data-container-carrinho class="container-menu-lateral-carinho">
+              <div data-fechar-carrinho class="fechar">
+                <h2>x</h2>
+              </div>
+              <div data-conteudo-append-carrinho>
+
+              </div>
+              <div data-valor-produtos-carrinho>
+                <h3>Total</h3>
+                <p data-total-produtos></p>
+              </div>
+              <div class="links-carrinho">
+                <a href="./pages/shop/paginaCarrinho/paginaCarrinho.html">Cart page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-principal">
+    <nav>
+      <ul class="container-global ul-list-header-links">
+        <div class="logo">
+          <li>
+            <div data-menu-mobile class="menu-mobile">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <img src="/src/imagens/Logo/Hekto.svg" alt="Logo do Site">
+          </li>
+        </div>
+        <div data-modal-links class="links-nav">
+          <li class="home-links">
+            <a data-links-ativo class="link-ativo" href="/index.html">Home</a>
+            <div class="sub-links">
+              <ul>
+                <li><a href="/pages/shop/shop.html">Shop</a></li>
+                <li><a href="/pages/shop/UsuarioProdutos/UsuariosPageProdutos.html">Shop users</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-links-ativo href="/pages/shop/shopSideBar/shopLateral.html">Products</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/pageBlog/pageBlog.html">Blog</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/contactPage/contactPage.html">Contact</a>
+          </li>
+        </div>
+        <div class="input-search">
+          <input type="search">
+        </div>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="shop-container ">
+  <div class="main">
+    <div class="conteudo-shop-grid container-global">
+      <h1>HecktoDemo</h1>
+    </div>
+  </div>
+</main>
+<section class="checkout-container container-global">
+  <div class="titulo-checkout">
+    <h1>Heckto Demo</h1>
+    <span>Cart/information/Shipping/Payment</span>
+  </div>
+<div class="container-card-checkout">
+  <div class="card-checkout">
+    <h2>Contact information</h2>
+    <form action="post">
+      <div class="inputs-checkout">
+        <input type="text" placeholder="Email or mobile phone number">
+      </div>
+      <div class="inputs-checkout campo-pagaementos">
+        <div class="nome-inputs">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+        </div>
+        <div class="infos-gerais">
+          <input type="text" placeholder="Addres">
+          <input type="text" placeholder="Appaetnment,suit,etc..">
+          <input type="text" placeholder="City">
+        </div>
+        <div class="nome-inputs">
+          <input type="text" placeholder="Bangladesh">
+          <input type="text" placeholder="Postal Code">
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="container-produtos">
+  <div conteudo-produtos-checkout>
+  </div>
+  <div class="card-total">
+    <div class="card-subtotal">
+      <h2>Subtotal</h2>
+      <p data-subtotal></p>
+    </div>
+    <div class="btn-payment">
+      <a href="/orderComplatePage/orderComplate.index.html">Payment</a>
+    </div>
+  </div>
+</div>
+</section>
+<footer>
+  <div class="conteudo-footer">
+    <img src="/src/imagens/Logo/Hekto.svg" alt="Logo Hekto">
+    <div class="input-footer">
+      <input type="text" placeholder="Enter Addres Email" name="email" id="email">
+      <div>
+        <a class="btn-footer" href="#">Sign Up</a>
+      </div>
+    </div>
+    <span>Contact info</span>
+  </div>
+  <div class="conteudo-footer">
+    <div class="titulo">
+      <h1>Categories</h1>
+    </div>
+    <ul class="lista-footer">
+      <li><a href="#">Laptops & Computer</a></li>
+      <li><a href="#">Camera & Photography</a></li>
+      <li><a href="#">Video Games & Console</a></li>
+      <li><a href="#">Smartphones & tablet</a></li>
+    </ul>
+  </div>
+  <div class="conteudo-footer">
+    <div class="titulo">
+      <h1>Pages</h1>
+    </div>
+    <ul class="lista-footer">
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Browse the shop</a></li>
+      <li><a href="#">Category</a></li>
+      <li><a href="#">Pre-build Pages</a></li>
+      <li><a href="#">Visual Composer Elements</a></li>
+      <li><a href="#">Weecommerce pages</a></li>
+    </ul>
+  </div>
+  <div class="conteudo-footer">
+    <div class="titulo">
+      <h1>Custom care</h1>
+    </div>
+    <ul class="lista-footer">
+      <li><a href="#">My account</a></li>
+      <li><a href="#">Discount</a></li>
+      <li><a href="#">Returns</a></li>
+      <li><a href="#">Order Tracking</a></li>
+    </ul>
+  </div>
+</footer>
+<script type="module" src="./checkoutModule.js"></script>
+</body>
+</html>

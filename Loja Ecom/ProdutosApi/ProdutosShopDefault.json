@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "nome": "Purus Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto1.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 2,
+    "nome": "Lectus Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto2.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 3,
+    "nome": "Clash Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto3.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 4,
+    "nome": "Palesque Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto4.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 5,
+    "nome": "Ulitricies Mour elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto5.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 6,
+    "nome": "Ulitricies Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto6.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 7,
+    "nome": "Solicitudin Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto7.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 8,
+    "nome": "Vestibulum Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto8.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 9,
+    "nome": "Fusque Palent Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto9.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 10,
+    "nome": "Sed aut fermetum ",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto10.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 11,
+    "nome": "Viate Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto11.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  },
+  {
+    "id": 12,
+    "nome": "Ulitricies Elit",
+    "preco": 26.0,
+    "src": ["/src/imagens/shopDefault/produto12.png"],
+    "alt": "Produto cadeira",
+    "quantidade": 1
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id":"0",
+    "quantidade":1,
+    "nome":"Cantilever Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto1.png"
+    ],
+    "alt":[
+    "Produto item"
+    ]
+  },
+  {
+    "id":"1",
+    "quantidade":1,
+    "nome":"Poltrona Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto2.png"
+    ],
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"2",
+    "quantidade":1,
+    "nome":"RGB Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+      "src":[
+      "/src/imagens/Produtos/produto3 (1).png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"3",
+    "quantidade":1,
+    "nome":"Ergonomic Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto4.png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"4",
+    "quantidade":1,
+    "nome":"Cantilever Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto1.png"
+    ],
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"5",
+    "quantidade":1,
+    "nome":"Cantilever Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto2.png"
+    ],
+    "alt":[
+    "Produto item"
+    ]
+  },
+  {
+    "id":"6",
+    "quantidade":1,
+    "nome":"Cantilever Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto1.png"
+    ],
+    "alt":[
+    "Produto item"
+    ]
+  },
+  {
+    "id":"7",
+    "quantidade":1,
+    "nome":"Ergonomic Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto4.png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"8",
+    "quantidade":1,
+    "nome":"Poltrona Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+    "src":[
+      "/src/imagens/Produtos/produto2.png"
+    ],
+    "alt":[
+      "Produto item"
+    ] 
+  },
+  {
+    "id":"9",
+    "quantidade":1,
+    "nome":"RGB Chair",
+    "code":"xyz2020",
+    "preco":42.00,
+      "src":[
+      "/src/imagens/Produtos/produto3 (1).png"
+    ] ,
+    "alt":[
+      "Produto item"
+    ] 
+  }
+]

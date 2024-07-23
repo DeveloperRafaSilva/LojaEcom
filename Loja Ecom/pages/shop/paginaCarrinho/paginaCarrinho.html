@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shop.css">
+  <link rel="stylesheet" href="../../../style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../../menuMobile.css">
+  <link rel="stylesheet" href="../../../menuLateral.css">
+  <link rel="stylesheet" href="../../../stiloCarrinho.css">
+  <link rel="stylesheet" href="./paginaCarrinho.css">
+  <title>Shop layout</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="header-infos-gerais container-global">
+        <div class="infos-item">
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/Emailicone.svg" alt="Icone de email">
+            <b>Rafael@gmail.com</b>
+          </div>
+          <div class="info-item">
+            <img src="/src/imagens/IconesHeader/telefoneIcone.svg" alt="Icone de email">
+            <b>(54)99999-8775</b>
+          </div>
+        </div>
+      <div class="infos-item">
+        <div class="info-item">
+          <p>English</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <p>USD</p>
+          <img src="/src/imagens/IconesHeader/ArrowIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <a href="/PageLogin/pageLogin.html">
+            <p>Login</p>
+            <img src="/src/imagens/IconesHeader/Usericone.svg" alt="Icone Arrow">
+          </a>
+        </div>
+        <div class="info-item">
+          <p>WishList</p>
+          <img src="/src/imagens/IconesHeader/FavoritoIcone.svg" alt="Icone Arrow">
+        </div>
+        <div class="info-item">
+          <div class="menu-lateral-carrinho">
+            <img data-abrir-carrinho src="/src/imagens/IconesHeader/cartIcone.svg" alt="Icone Arrow">
+            <div data-container-carrinho class="container-menu-lateral-carinho">
+              <div data-fechar-carrinho class="fechar">
+                <h2>x</h2>
+              </div>
+              <div data-conteudo-append-carrinho>
+
+              </div>
+              <div data-valor-produtos-carrinho>
+                <h3>Total</h3>
+                <p data-total-produtos></p>
+              </div>
+              <div class="links-carrinho">
+                <a href="./pages/shop/paginaCarrinho/paginaCarrinho.html">Cart page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-principal">
+    <nav>
+      <ul class="container-global ul-list-header-links">
+        <div class="logo">
+          <li>
+            <div data-menu-mobile class="menu-mobile">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <img src="/src/imagens/Logo/Hekto.svg" alt="Logo do Site">
+          </li>
+        </div>
+        <div data-modal-links class="links-nav">
+          <li class="home-links">
+            <a data-links-ativo class="link-ativo" href="/index.html">Home</a>
+            <div class="sub-links">
+              <ul>
+                <li><a href="/pages/shop/shop.html">Shop</a></li>
+                <li><a href="/pages/shop/UsuarioProdutos/UsuariosPageProdutos.html">Shop users</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-links-ativo href="/pages/shop/shopSideBar/shopLateral.html">Products</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/pageBlog/pageBlog.html">Blog</a>
+          </li>
+          <li>
+            <a data-links-ativo href="/contactPage/contactPage.html">Contact</a>
+          </li>
+        </div>
+        <div class="input-search">
+          <input type="search">
+        </div>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <main class="shop-container ">
+    <div class="main">
+      <div class="conteudo-shop-grid container-global">
+        <h1>Shop Cart</h1>
+        <p>Home.<p>Pages.</p><span class="link-ativo">.Shop Cart</span></p>
+      </div>
+    </div>
+  </main>
+  <section class="produtos-carrinho container-global">
+    <div>
+      <div class="header-carrinho">
+        <ul class="grid-item">
+        <li><h1>Product</h1></li>
+        <li><h1>Price</h1></li>
+        <li><h1>Quanty</h1></li>
+        <li><h1>Total</h1></li>
+      </ul>
+    </div>
+    <div append-produtos-carrinho class="conteudo-carrinho-append">
+    </div>
+    <h1 data-mensagem-cart>0 Products</h1>
+    <div class="btns-cart">
+      <a data-excluir-produtos href="#">Clear cart</a>
+    </div>
+  </div>
+    <div class="subTotal-card">
+      <h1>Cart totals</h1>
+      <div class="card">
+        <div class="total-produtos-card">
+          <h3>Totals</h3>
+          <p data-total></p>
+        </div>
+        <div class="btn-total">
+          <a href="/checkOutPage/checkout.html">Proced To Checkout</a>
+        </div>
+      </div>
+    <div class="subTotal-card">
+      <h1>Calculate shopping</h1>
+      <div class="card">
+        <div class="card-inputs">
+          <input placeholder="bangladesh" type="text" name="cidade" id="cidade">
+          <input placeholder="mirbur Daka 1200" type="text" name="rua" id="rua">
+          <input placeholder="Postal Code" type="text" name="codigoCidade" id="codigoCidade">
+        </div>
+        <div class="btn-calcular-entrega">
+          <a href="#">Calculate Shiping</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="conteudo-footer">
+      <img src="/src/imagens/Logo/Hekto.svg" alt="Logo Hekto">
+      <div class="input-footer">
+        <input type="text" placeholder="Enter Addres Email" name="email" id="email">
+        <div>
+          <a class="btn-footer" href="#">Sign Up</a>
+        </div>
+      </div>
+      <span>Contact info</span>
+    </div>
+    <div class="conteudo-footer">
+      <div class="titulo">
+        <h1>Categories</h1>
+      </div>
+      <ul class="lista-footer">
+        <li><a href="#">Laptops & Computer</a></li>
+        <li><a href="#">Camera & Photography</a></li>
+        <li><a href="#">Video Games & Console</a></li>
+        <li><a href="#">Smartphones & tablet</a></li>
+      </ul>
+    </div>
+    <div class="conteudo-footer">
+      <div class="titulo">
+        <h1>Pages</h1>
+      </div>
+      <ul class="lista-footer">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Browse the shop</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Pre-build Pages</a></li>
+        <li><a href="#">Visual Composer Elements</a></li>
+        <li><a href="#">Weecommerce pages</a></li>
+      </ul>
+    </div>
+    <div class="conteudo-footer">
+      <div class="titulo">
+        <h1>Custom care</h1>
+      </div>
+      <ul class="lista-footer">
+        <li><a href="#">My account</a></li>
+        <li><a href="#">Discount</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Order Tracking</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script type="module" src="./moduloCarrinho.js"></script>
+</body>
+</html>

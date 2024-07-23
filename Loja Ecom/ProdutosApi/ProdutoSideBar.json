@@ -1,0 +1,114 @@
+[
+  {
+    "id":0,
+    "porcentagem":20,
+    "avaliacao":4,
+    "quantidade":1,
+    "nome":"Purus Elit",
+    "preco":150.00,
+    "src":[
+      "/src/imagens/produtoSideBar/produto7 (1).png"
+    ],
+    "imagemAvalicao":[
+      "../../../src/imagens/avaliacaoIcones/vector.svg"
+    ],
+    "alt":"Produto cadeira",
+    "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab nesciunt quaerat dicta aperiam quas corrupti ut placeat, neque itaque."
+  },
+  {
+    "id":2,
+    "porcentagem":20,
+    "avaliacao":4,
+    "quantidade":1,
+    "nome":"Lectus Elit",
+    "preco":150.00,
+    "src":[
+      "/src/imagens/produtoSideBar/produto7 (2).png"
+    ],
+    "imagemAvalicao":[
+      "../../../src/imagens/avaliacaoIcones/vector.svg"
+    ],
+    "alt":"Produto cadeira",
+    "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab nesciunt quaerat dicta aperiam quas corrupti ut placeat, neque itaque."
+  },
+  {
+    "id":3,
+    "porcentagem":20,
+    "avaliacao":4,
+    "quantidade":1,
+    "nome":"Clash Elit",
+    "preco":350.00,
+    "src":[
+      "src/imagens/produtoSideBar/produto7 (3).png"
+    ],
+    "imagemAvalicao":[
+      "../../../src/imagens/avaliacaoIcones/vector.svg"
+    ],
+    "alt":"Produto cadeira",
+    "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab nesciunt quaerat dicta aperiam quas corrupti ut placeat, neque itaque."
+  },
+  {
+    "id":4,
+    "porcentagem":25,
+    "avaliacao":4,
+    "quantidade":1,
+    "nome":"Palesque Elit",
+    "preco":350.00,
+    "src":[
+      "/src/imagens/produtoSideBar/produto7 (4).png"
+    ],
+    "imagemAvalicao":[
+      "../../../src/imagens/avaliacaoIcones/vector.svg"
+    ],
+    "alt":"Produto cadeira",
+    "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab nesciunt quaerat dicta aperiam quas corrupti ut placeat, neque itaque."
+  },
+  {
+    "id":5,
+    "porcentagem":25,
+    "avaliacao":3,
+    "quantidade":1,
+    "nome":"Ulitricies Mour elit",
+    "preco":350.00,
+    "src":[
+      "/src/imagens/produtoSideBar/produto7 (5).png"
+    ],
+    "imagemAvalicao":[
+      "../../../src/imagens/avaliacaoIcones/vector.svg"
+    ],
+    "alt":"Produto cadeira",
+    "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab nesciunt quaerat dicta aperiam quas corrupti ut placeat, neque itaque."
+  },
+  {
+    "id":6,
+    "porcentagem":25,
+    "avaliacao":5,
+    "quantidade":1,
+    "nome":"Ulitricies Elit",
+    "preco":150.00,
+    "src":[
+      "/src/imagens/produtoSideBar/produto7 (6).png"
+    ],
+    "imagemAvalicao":[
+      "../../../src/imagens/avaliacaoIcones/vector.svg"
+    ],
+    "alt":"Produto cadeira",
+    "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab nesciunt quaerat dicta aperiam quas corrupti ut placeat, neque itaque."
+  },
+  {
+    "id":7,
+    "porcentagem":5,
+    "avaliacao":5,
+    "quantidade":1,
+    "nome":"Solicitudin Elit",
+    "preco":450.00,
+    "src":[
+      "/src/imagens/produtoSideBar/produto7 (7).png"
+    ],
+    "imagemAvalicao":[
+      "../../../src/imagens/avaliacaoIcones/vector.svg"
+    ],
+    "alt":"Produto cadeira",
+    "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque ab nesciunt quaerat dicta aperiam quas corrupti ut placeat, neque itaque."
+  }
+]
